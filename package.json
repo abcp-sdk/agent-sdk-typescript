@@ -1,6 +1,6 @@
 {
   "name": "@abcp/agent-sdk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Agent typed client SDK for TypeScript over Connect (agent.v1.AgentService). Web + Node transports.",
   "type": "module",
   "main": "./dist/index.js",
@@ -21,9 +21,7 @@
   },
   "dependencies": {
     "@bufbuild/protobuf": "^2.14.1",
-    "@connectrpc/connect": "^2.2.0",
-    "@connectrpc/connect-web": "^2.2.0",
-    "@connectrpc/connect-node": "^2.2.0"
+    "@connectrpc/connect": "^2.2.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
