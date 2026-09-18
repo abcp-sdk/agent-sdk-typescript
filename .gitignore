@@ -1,4 +1,2 @@
 node_modules/
-# dist/ is committed on purpose: this package is consumed via file:/git links,
-# whose consumers have no devDependencies (tsc), so the compiled output must
-# ship in the repo.
+dist/
