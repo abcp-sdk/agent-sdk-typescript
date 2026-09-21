@@ -1,6 +1,6 @@
 {
   "name": "@abcp/agent-sdk",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "Agent typed client SDK for TypeScript over Connect (agent.v1.AgentService + agent.v1.AdminService). Web + Node transports.",
   "type": "module",
   "main": "./dist/index.js",
