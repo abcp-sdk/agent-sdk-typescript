@@ -44,10 +44,16 @@ npm run build
 
 ## Publishing
 
-Consumed as a git dependency or a workspace link:
+Published to and consumed from the platform's private **artifact** npm registry
+(**not** GitHub / npmjs):
 
-```json
-"dependencies": {
-  "@abcp/agent-sdk": "file:../agent-sdk-typescript"
-}
 ```
+# .npmrc
+registry=http://artifact.worker.svc.cluster.local/artifacts/npm/
+```
+
+```bash
+npm publish --access public   # scoped name; _authToken in .npmrc
+```
+
+See `DEVELOP.md` and `easy-vcs/deploy:PUBLISHING.md` for details.
